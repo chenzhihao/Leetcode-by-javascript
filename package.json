@@ -26,13 +26,12 @@
       "test/*.js"
     ],
     "source": [
-      "**/*.{js,jsx}",
-      "!dist/**/*"
+      "**/*.{js,jsx}"
     ],
     "concurrency": 5,
     "failFast": true,
     "tap": true,
-    "powerAssert": false,
+    "powerAssert": true,
     "require": [
       "babel-register"
     ],
