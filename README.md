@@ -1,2 +1,7 @@
-# Leetcode-by-javascript
-Leetcode Javascript with test.
+# Leetcode In JavaScript
+
+Leetcode JavaScript answer with test.
+
+```
+npm test
+```

@@ -1,0 +1,46 @@
+{
+  "name": "leetcode-in-javascript",
+  "version": "1.0.0",
+  "description": "Leetcode JavaScript answer with test.",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenzhihao/leetcode-in-javascript.git"
+  },
+  "author": "cabtravis@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chenzhihao/leetcode-in-javascript/issues"
+  },
+  "homepage": "https://github.com/chenzhihao/leetcode-in-javascript#readme",
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "babel-cli": "^6.18.0",
+    "babel-preset-latest": "^6.16.0",
+    "babel-register": "^6.18.0"
+  },
+  "ava": {
+    "files": [
+      "test/*.js"
+    ],
+    "source": [
+      "**/*.{js,jsx}",
+      "!dist/**/*"
+    ],
+    "concurrency": 5,
+    "failFast": true,
+    "tap": true,
+    "powerAssert": false,
+    "require": [
+      "babel-register"
+    ],
+    "babel": "inherit"
+  },
+  "babel": {
+    "presets": [
+      "latest"
+    ]
+  }
+}
